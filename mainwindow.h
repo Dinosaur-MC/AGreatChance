@@ -1,6 +1,9 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
+#define APP_NAME "A Great Chance"
+#define APP_VERSION "1.0"
+
 #define FILE_POOL "pool.csv"
 #define KEY_NULL "#NULL"
 #define KEY_EMPTY "<Empty>"

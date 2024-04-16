@@ -23,7 +23,7 @@ MainWindow::MainWindow(QWidget *parent)
     name = KEY_NULL;
 
     // 页面初始化
-    this->setWindowTitle("A Great Chance");
+    this->setWindowTitle(QString(APP_NAME) + " - V" + APP_VERSION);
     ui->statusbar->addWidget(&lb_total_count);
     ui->statusbar->addWidget(&lb_cur_count);
     ui->statusbar->addPermanentWidget(&lb_remained_count);
